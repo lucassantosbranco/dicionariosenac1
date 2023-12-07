@@ -1,0 +1,120 @@
+body{
+    background-color: #f5f5f5;
+}
+ 
+header{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.meunome{
+    color: #000000;
+}
+
+.titulopalavra{
+    color: #000000;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.palavras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #000000;
+}
+
+.palavrasdireita p, .palavrasesquerda p{
+    width: 20vw;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.tituloconto{
+    font-size: 30px;
+    border-bottom: 10px solid #ffffff;
+    position: relative;
+    color: #000000;
+}
+
+.contoportugues{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    margin: 2vw 7.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.dadireita p, .daesquerda p{
+    display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.msg{
+    width: 40vw;
+    background-color: gray;
+}
+
+#bodybody{
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgb(0, 0, 0), red(255, 0, 0, 0)); 
+}
+
+#modal{
+    display: none;
+    width: 50vw;
+    height: 80vh;
+    background-color: rgb(217, 217, 217, 1);
+    border: 1px solid black;
+    position: absolute;
+    top: 10vh;
+    left: 25vw;
+    padding: 20px;
+}
+
+hr{
+    margin: 5px;
+}
+
+.segundoheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+#idiomaemportugues, #idiomaemingles{
+    font-size: 12px;
+    float: right;
+}
+
+#classeemingles, #classeemportugues, #definicaoemingles, #definicaoemportugues, #exemploemingles, #exemploemportugues{
+    font-size: 18px;
+}
+
+#definicaoemingles p, #definicaoemportugues p{
+    overflow-wrap: break-word;
+}
+
+#definicaoportugues{
+    margin-top: 50px;
+}
+
+#exemploemingles, #exemploemportugues{
+    color: rgb(139, 139, 139);
+}
+
